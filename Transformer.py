@@ -94,8 +94,6 @@ def process_filename(filename):
     
     return new_name
 
-import csv
-
 def process_folder(folder_path, csv_filename):
     # Open the CSV file for writing
     with open(csv_filename, mode='w', newline='', encoding='utf-8') as file:
@@ -119,5 +117,5 @@ def process_folder(folder_path, csv_filename):
                 # os.rename(os.path.join(folder_path, filename), os.path.join(folder_path, new_filename))
 
 # Example usage: Set the folder path and CSV filename
-process_folder(r"C:\Users\lucia\OneDrive\Documentos\Python\Planillas\Descargadas", "renamed_files.csv")
+process_folder(r"Descargadas", "renamed_files.csv")
 
