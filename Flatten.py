@@ -12,5 +12,8 @@ def flatten_folder(root_folder):
         if dirpath != root_folder:
             os.rmdir(dirpath)
 
+
+path = r"Descargadas"
+
 # Example usage:
-flatten_folder(r"C:\Users\lucia\OneDrive\Documentos\Python\Planillas\Descargadas")
+flatten_folder(path)

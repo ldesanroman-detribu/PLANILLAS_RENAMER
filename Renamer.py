@@ -2,8 +2,8 @@ import os
 import pandas as pd
 
 # CONFIGURE HERE:
-folder_path = r"C:\Users\lucia\OneDrive\Documentos\Python\Planillas\Final"
-csv_path = r"C:\Users\lucia\OneDrive\Documentos\Python\Planillas\Nombrador.csv"
+folder_path = r"Final"
+csv_path = r"Nombrador.csv"
 original_column = "Old Filename"  # Name of the column with the current filenames
 corrected_column = "Final"  # Name of the column with the new filenames
 
@@ -27,4 +27,4 @@ for index, row in df.iterrows():
 
     # Ahora sí, renombrar
     os.rename(old_path, new_path)
-    print(f"✅ Renombrado: {original_name} -> {new_name}")
+    print(f"✅ Renombrado: {original_name} -> {new_name}")  
