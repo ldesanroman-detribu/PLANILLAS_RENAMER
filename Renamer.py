@@ -27,4 +27,4 @@ for index, row in df.iterrows():
 
     # Ahora sí, renombrar
     os.rename(old_path, new_path)
-    print(f"✅ Renombrado: {original_name} -> {new_name}")
+    print(f"✅ Renombrado: {original_name} -> {new_name}")  
